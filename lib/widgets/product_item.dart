@@ -42,7 +42,9 @@ class ProductItem extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           trailing: IconButton(
-            icon: Icon(Icons.shopping_cart),
+            icon: Icon(Icons
+                .shopping_cart), // here we use the consumer because it will not build the whole tree only it will build it's part
+
             onPressed: () {},
             color: Theme.of(context).accentColor,
           ),
