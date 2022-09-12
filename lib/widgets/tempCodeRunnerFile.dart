@@ -1,0 +1,1 @@
+import '../providers/product.dart';
